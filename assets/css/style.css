@@ -899,14 +899,14 @@ main {
 .skill-list {
   display: grid;
   grid-template-columns: auto auto auto;
-  gap: 3% 3%;
+  gap: 20px;
 }
 
 .skill-item {
   position: relative;
   background: var(--border-gradient-onyx);
-  padding: 20px;
-  border-radius: 14px;
+  padding: 25px;
+  border-radius: 10px;
   box-shadow: var(--shadow-2);
   z-index: 1;
 }
@@ -931,10 +931,10 @@ main {
 .skill-content-box {
   text-align: center;
 }
-
+/* 
 .skill-item-title {
   margin-bottom: 7px;
-}
+} */
 
 /*-----------------------------------*\
   #PORTFOLIO
@@ -1251,7 +1251,7 @@ textarea.form-input::-webkit-resizer {
   .skill-list {
    
     grid-template-columns: auto auto;
-    gap: 3% 3%;
+    gap: 20px;
   }
 
   .skill {
